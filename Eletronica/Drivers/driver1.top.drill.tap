@@ -1,0 +1,94 @@
+(.../wes/Drive/eagle/ulp/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../Eletronica/Drivers/driver1.brd)
+(Current profile is .../Drive/eagle/ulp/profiles/mach.pp  )
+(This file generated 9/26/15 00:41)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1000  )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(15.0000 	2.0000  	-0.2000 	-2.0000 )
+(spindle on time = 3.0000)
+(milling depth = -0.2000)
+(text depth = -0.1270)
+(tool change at 0.0000  0.0000  40.0000 )
+(feed rate xy = F500   )
+(feed rate z  = F200   )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0200)
+(isolate max = 10.0000)
+(isolate step = 0.0500)
+(Generated top outlines, top drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 4.300mm 0.1693in | 0.0400in | 0.0472in |      37 )
+( T01 | 1.200mm 0.0472in | 0.0400in | 0.0472in |      38 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z40.0000 
+G00 X0.0000  Y0.0000  
+M06 T01  ; 4.3000  
+G01 Z0.0000  F200   
+M06 T01  ; 4.3000  
+G00 Z2.0000  
+M03
+G04 P3.000000
+G82 X48.2600 Y5.0800  Z-2.0000 F200   R2.0000  P1.000000
+G82 X48.2600 Y115.5700 
+G82 X5.0800  Y5.0800  
+G82 X5.0800  Y115.5700 
+M05
+G00 Z40.0000 
+M06 T01  ; 1.2000  
+G01 Z0.0000  F200   
+M06 T02  ; 1.2000  
+G00 Z2.0000  
+M03
+G04 P3.000000
+G82 X31.7500 Y107.9500 Z-2.0000 F200   R2.0000  P1.000000
+G82 X31.7500 Y110.4900 
+G82 X31.7500 Y113.0300 
+G82 X33.1400 Y18.7600 
+G82 X33.2400 Y78.9600 
+G82 X35.0800 Y6.4500  
+G82 X35.5600 Y93.9800 
+G82 X35.5600 Y96.5200 
+G82 X35.5600 Y99.0600 
+G82 X35.5600 Y101.6000 
+G82 X38.5800 Y6.4500  
+G82 X39.2400 Y78.9600 
+G82 X39.3700 Y110.3122 
+G82 X39.3700 Y113.2078 
+G82 X45.2400 Y78.9600 
+G82 X45.7200 Y92.7100 
+G82 X45.7200 Y95.2500 
+G82 X45.7200 Y97.7900 
+G82 X45.7200 Y100.3300 
+G82 X45.7200 Y102.8700 
+G82 X45.8900 Y18.7600 
+G82 X48.2600 Y92.7100 
+G82 X48.2600 Y95.2500 
+G82 X48.2600 Y97.7900 
+G82 X48.2600 Y100.3300 
+G82 X48.2600 Y102.8700 
+G82 X7.4900  Y78.9600 
+G82 X14.7600 Y115.6700 
+G82 X18.2600 Y115.6700 
+G82 X20.3200 Y93.9800 
+G82 X20.3200 Y96.5200 
+G82 X20.3200 Y99.0600 
+G82 X20.3200 Y101.6000 
+G82 X26.6700 Y107.9500 
+G82 X26.6700 Y110.4900 
+G82 X26.6700 Y113.0300 
+G82 X27.2400 Y78.9600 
+T01 
+G00 Z15.0000 
+M05
+M02
