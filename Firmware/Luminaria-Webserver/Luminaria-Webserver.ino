@@ -14,6 +14,9 @@
  */
 
 #include <ESP8266WiFi.h>
+
+#include <ESP8266Ping.h>
+
 #include <WiFiUdp.h>
 #include <Time.h>
 #include <TimeLib.h>

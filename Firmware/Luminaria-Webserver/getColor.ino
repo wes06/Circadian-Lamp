@@ -15,15 +15,21 @@ void getColor(int awakenHour) {  // awakenHour 0 = waking up, awakenHour 16 = go
   int enterPlateau = 3;
   int leavePlateau = 13;
 
-  if (awakenHour < enterPlateau) {
-    colorTemp = (enterPlateau - awakenHour) * 4000;
+  if (awakenHour <= enterPlateau) {
+    colorTemp = (  (enterPlateau - awakenHour)/enterPlateau  ) * -4000;
   }
-  else if (awakenHour > enterPlateau - 1 || awakenHour < leavePlateau) {
-
-
+  else if (awakenHour > enterPlateau || awakenHour < leavePlateau) {
+    colorTemp = 0; // full light
   }
   else {
-
+    colorTemp = (  (awakenHour - leavePlateau)/(16 - leavePlateau)  ) * 4000;
   }
 
 }
+
+
+void getBrightness(int awakenHour){
+  
+}
+}
+
